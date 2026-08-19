@@ -1,0 +1,17 @@
+# Environnements
+venv/
+__pycache__/
+*.pyc
+
+# Données (ne jamais commiter les données brutes potentiellement volumineuses)
+data/raw/*.csv
+data/processed/*.csv
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Variables d'environnement
+.env
+
+# OS
+.DS_Store
